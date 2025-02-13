@@ -22,7 +22,8 @@ const toggleOpen = () => {
 };
 
 const toggleYes = () => {
-  fadeOutAudio(sa_bawat_sandali); // Fade out "Sa Bawat Sandali"
+  // fadeOutAudio(sa_bawat_sandali); // Fade out "Sa Bawat Sandali"
+  sa_bawat_sandali.pause();
   fadeInAudio(palagi); // Fade in "Palagi"
   // sa_bawat_sandali.pause();
   // palagi.play().catch((error) => console.error("Audio play failed:", error));
