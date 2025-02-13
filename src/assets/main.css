@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-inter: "Inter", sans-serif;
+  --font-pangolin: "Pangolin", cursive;
+  --font-poppins: "Poppins", sans-serif;
+
+  /* Colors */
+  --color-red: #D14D72;
+  --color-peach: #FFABAB;
+  --color-pink: #FCC8D1;
+  --color-cream: #FEF2F4;
+}
+
+body {
+  font-family: var(--font-pangolin); /* Use the variable */
+}
+
+.btn-yes{
+  @apply  font-bold py-2 rounded border-red border-2 px-8 hover:bg-red hover:text-white hover:cursor-pointer;
+}
+.btn-no{
+  @apply  font-bold py-1 rounded border border-red px-3  hover:bg-red hover:text-white text-xs hover:cursor-pointer;
+}
