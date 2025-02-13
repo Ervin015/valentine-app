@@ -112,7 +112,7 @@ const fadeOutAudio = (audio) => {
           You said <span class="font-bold">YES</span>!!! See you on
           <span class="font-bold">Saturday</span>!
           <br />
-          I Love You, my palagi 💖
+          I Love You, my palagi 💖 ~Ervs
         </p>
 
         <img
